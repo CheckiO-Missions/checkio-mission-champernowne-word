@@ -1,0 +1,48 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    The <a target="_blank" href="https://en.wikipedia.org/wiki/Champernowne_constant">Champernowne word</a> <code>1234567891011121314151617181920212223…</code>, also known as the counting series, is an infinitely long string of digits made up of all positive integers written out in ascending order without any separators. This function should return the digit at position <code>n</code> of the Champernowne word. Position counting again starts from zero.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}champernowne.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<details>
+    <summary><i>Click this line if you need a hint.</i></summary>
+    <p style="text-align: justify;">
+        This infinite sequence starts with nine single-digit numbers, followed by ninety two-digit numbers, followed by nine hundred three-digit numbers, and so on. Once you reach the block of k-digit numbers that contains the position n, the digit in that position is best determined with integer arithmetic, perhaps aided by an <code>str</code> conversion for access to digit positions.
+    </p>
+</details>
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> Integer <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Output:</strong> Integer <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Examples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>The mission was taken from Python CCPS 109. It is taught for Ryerson Chang School of Continuing Education by <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
