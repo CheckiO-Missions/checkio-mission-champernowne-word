@@ -1,0 +1,48 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Die <a target="_blank" href="https://en.wikipedia.org/wiki/Champernowne_constant">Champernowne word</a> <code>1234567891011121314151617181920212223…</code> , auch bekannt als Zählreihe, ist eine unendlich lange Ziffernfolge, die aus allen positiven ganzen Zahlen besteht, die in aufsteigender Reihenfolge ohne Trennzeichen ausgeschrieben werden. Diese Funktion sollte die Ziffer an Position <code>n</code> des Champernowne-Worts zurückgeben. Die Positionszählung beginnt wieder bei Null.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}champernowne.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<details>
+    <summary><i>Klicken Sie auf diese Zeile, wenn Sie einen Hinweis benötigen.</i></summary>
+    <p style="text-align: justify;">
+        Diese unendliche Folge beginnt mit neun einstelligen Zahlen, gefolgt von neunzig zweistelligen Zahlen, gefolgt von neunhundert dreistelligen Zahlen, und so weiter. Sobald Sie den Block von k-stelligen Zahlen erreicht haben, der die Position n enthält, lässt sich die Ziffer an dieser Position am besten mit ganzzahliger Arithmetik bestimmen, vielleicht unterstützt durch eine <code>str</code> Konvertierung für den Zugriff auf die Ziffernpositionen.
+    </p>
+</details>
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Ganzzahl <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Integer <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>Die Aufgabe wurde aus Python CCPS 109 übernommen. Sie wird für die Ryerson Chang School of Continuing Education unterrichtet von <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
