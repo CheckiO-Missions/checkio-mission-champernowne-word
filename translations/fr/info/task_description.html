@@ -1,0 +1,48 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    La série <a target="_blank" href="https://en.wikipedia.org/wiki/Champernowne_constant">Champernowne word</a> <code>1234567891011121314151617181920212223…</code> , également connue sous le nom de série de comptage, est une chaîne de chiffres infiniment longue composée de tous les nombres entiers positifs écrits dans l'ordre croissant sans aucun séparateur. Cette fonction doit renvoyer le chiffre à la position <code>n</code> du mot de Champernowne. Le comptage des positions commence à nouveau à zéro.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}champernowne.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<details>
+    <summary><i>Cliquez sur cette ligne si vous avez besoin d'un indice.</i></summary>
+    <p style="text-align: justify;">
+        Cette séquence infinie commence par neuf nombres à un chiffre, suivis de quatre-vingt-dix nombres à deux chiffres, suivis de neuf cents nombres à trois chiffres, et ainsi de suite. Une fois que vous avez atteint le bloc de nombres à k chiffres qui contient la position n, le meilleur moyen de déterminer le chiffre de cette position est de recourir à l'arithmétique des nombres entiers, éventuellement avec l'aide d'une conversion <code>str</code> pour accéder aux positions des chiffres.
+    </p>
+</details>
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> Entier <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Sortie:</strong> Entier <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>La mission a été tirée de Python CCPS 109. Il est enseigné pour l'école d'éducation permanente Ryerson Chang par <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
