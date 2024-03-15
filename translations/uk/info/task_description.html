@@ -1,0 +1,48 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Ряд <a target="_blank" href="https://en.wikipedia.org/wiki/Champernowne_constant">Champernowne word</a> <code>1234567891011121314151617181920212223…</code> , також відомий як лічильний ряд, являє собою нескінченно довгий рядок цифр, що складається з усіх натуральних чисел, записаних у зростаючому порядку без будь-яких роздільників. Ця функція повинна повернути цифру у позиції <code>n</code> слова Чемберлена. Відлік позицій знову починається з нуля.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}champernowne.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<details>
+    <summary><i>Клацніть цей рядок, якщо вам потрібна підказка.</i></summary>
+    <p style="text-align: justify;">
+        Ця нескінченна послідовність починається з дев'яти одноцифрових чисел, за якими йдуть дев'яносто двоцифрових чисел, потім дев'ятсот трицифрових чисел і так далі. Як тільки ви дійдете до блоку k-значних чисел, який містить позицію n, цифру у цій позиції найкраще визначити за допомогою цілочисельної арифметики, можливо, за допомогою перетворення <code>str</code> для доступу до позицій цифр.
+    </p>
+</details>
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Ціле число <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Вихідні дані:</strong> Ціле число <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>Місія була взята з Python CCPS 109. Його викладають у Ryerson Chang School of Continuing Education <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
