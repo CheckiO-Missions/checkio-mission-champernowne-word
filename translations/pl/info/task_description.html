@@ -1,0 +1,48 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Szereg <a target="_blank" href="https://en.wikipedia.org/wiki/Champernowne_constant">Champernowne word</a> <code>1234567891011121314151617181920212223…</code> , znany również jako szereg zliczający, to nieskończenie długi ciąg cyfr składający się ze wszystkich dodatnich liczb całkowitych zapisanych w porządku rosnącym bez żadnych separatorów. Ta funkcja powinna zwrócić cyfrę na pozycji <code>n</code> słowa Champernowne. Liczenie pozycji ponownie rozpoczyna się od zera.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}champernowne.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<details>
+    <summary><i>Proszę kliknąć ten wiersz, jeśli potrzebna jest podpowiedź.</i></summary>
+    <p style="text-align: justify;">
+        Ta nieskończona sekwencja zaczyna się od dziewięciu liczb jednocyfrowych, po których następuje dziewięćdziesiąt liczb dwucyfrowych, a następnie dziewięćset liczb trzycyfrowych itd. Po dotarciu do bloku liczb k-cyfrowych, który zawiera pozycję n, cyfrę na tej pozycji najlepiej określić za pomocą arytmetyki liczb całkowitych, być może wspomaganej przez konwersję <code>str</code> w celu uzyskania dostępu do pozycji cyfr.
+    </p>
+</details>
+<!-- Explain input and output values -->
+<p>
+   <strong>Wejście:</strong> Liczba całkowita <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Wyjście:</strong> Liczba całkowita <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>Misja została zaczerpnięta z Python CCPS 109. Jest on prowadzony dla Ryerson Chang School of Continuing Education przez <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
