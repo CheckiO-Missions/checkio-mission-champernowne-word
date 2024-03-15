@@ -1,0 +1,48 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Champernowne_constant">Champernowne word</a> <code>1234567891011121314151617181920212223…</code> ，也称为计数数列，是由所有正整数按升序写成的无限长的数字串，没有任何分隔符。该函数应返回 Champernowne 字<code>n</code> 位置上的数字。位置计数同样从零开始。
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}champernowne.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<details>
+    <summary><i>如果需要提示，请点击这一行。</i></summary>
+    <p style="text-align: justify;">
+        这个无穷序列从九个个位数开始，接着是九十个两位数，然后是九百个三位数，以此类推。一旦到达包含位置 n 的 k 位数块，该位置上的数字最好通过整数运算来确定，或许可以通过<code>str</code> 转换来访问数字位置。
+    </p>
+</details>
+<!-- Explain input and output values -->
+<p>
+   <strong>输入：</strong>整数 <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>输出：</strong>整数 <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>任务摘自 Python CCPS 109。该课程由张瑞敏继续教育学院教授。<a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
